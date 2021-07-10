@@ -13,7 +13,7 @@ import lib
 @client.event
 async def on_ready():
 
-    print("----------에러 로그----------")
+    print("----------log----------")
     await client.change_presence(activity=discord.Game(name='paly game', type=1))
 
 
@@ -32,4 +32,4 @@ async def on_message(message):
         await message.channel.send(hiresult)
 
 
-client.run('user token')
+client.run('bot token')
