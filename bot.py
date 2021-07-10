@@ -23,6 +23,7 @@ async def on_message(message):
     if message.content.startswith('ping'):
         await message.channel.send("pong")
     
+##random
 
     if message.content.startswith('hello'):
         hi = "hi/hello"
