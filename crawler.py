@@ -12,7 +12,7 @@ t = time.time()
 
 fasfd = time.strftime('???? link in time or ~~~', time.localtime(t))
 ##or
-sadas =('link')
+fasfd =('link')
 
 
 
