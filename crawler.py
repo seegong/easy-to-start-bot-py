@@ -21,9 +21,9 @@ res = requests.get(fasfd, headers={
     'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36'
 })
 
-soup = BeautifulSoup(res.text, 'html.parser')
-meal = soup.find('?????','?????')
+aaaa = BeautifulSoup(res.text, 'html.parser')
+bbbb = aaaa.find('?????','?????')
 
 
 
-print (meal)
+print (bbbb)
